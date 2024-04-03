@@ -12,13 +12,15 @@
     `sudo touch /home/juan/web/html/nginx-2420/nginx-2420.conf`
 6. Go into that folder and vim the .conf file, inside the .conf create a new server block and include the necessary line:
     `sudo vim nginx-2420.conf`
-    ```server {
+    ```
+    server {
         listen      80;
         server_name 164.92.106.35;
 
         root /home/juan/web/html/nginx-2420;
         index nginx-2420.html;
-    }```
+    }
+    ```
 7. Save the .conf file, then create the .html file inside the same folder:
     `sudo vim nginx-2420.html`
 8. Then copy and paste an html content inside and save the file.
