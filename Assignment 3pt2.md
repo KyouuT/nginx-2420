@@ -47,6 +47,7 @@
 9. Test backend using curl in host machince using `curl`
     - `curl http://164.92.106.35`
     - `curl http://164.92.106.35/hey`
-    - ```curl -X POST -H "Content-Type: application/json" \
+    ```
+    curl -X POST -H "Content-Type: application/json" \
     -d '{"message": "Hello from your server"}' \
     http://164.92.106.35/backend/echo
